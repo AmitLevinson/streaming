@@ -48,31 +48,15 @@ theme_set(theme_minimal() +
             theme(
               text = element_text(family = "Raleway"),
               plot.title = element_text(family = "Merriweather", size = 16, face = "bold"),
+              plot.title.position = "plot",
               panel.grid.minor.x = element_blank()
             )
           )
 ```
 
-Questions we're interested in:
-
-1. What are the various roles respondents have? [q01]
-
-1. How long did someone work on DV in the past week? [q03]
-
-1. Time devoted to aspects of data visualization [q04]
-
-1. Years of experience [q06]
-
-1. Years of professional experience [q07]
-
-1. Salary [q09]
-
-1. Tools people use
-
-1. Tools people use together
-
 
 ### Various roles
+
 
 ```{r}
 dat_1to60 <- dat_raw %>% 
@@ -80,7 +64,7 @@ dat_1to60 <- dat_raw %>%
   
 ```
 
-What are the roles respondents have?
+What roles do respondents have?
 
 ```{r}
 dat_1to60 %>% 
@@ -95,24 +79,23 @@ dat_1to60 %>%
    )
 ```
 
-How long did someone work on DV in the past week? [q03]
-
-```{r}
-```
-
-
 Years of experience [q06]
 
 ```{r}
 dat_1to60 %>% 
+  count(years_dv_experience) %>% View()
+factor(dat_1to60$years_dv_experience)
+dat_1to60 %>% 
+  mutate(
+         years_dv_experience = factor(years_dv_experience, levels = c("Less than 1 year", "1" , "2", "3", "4", "5", "6–10", "11–15","16–20", "21–25", "26–30", "More than 30"), exclude = NA)) %>%
   count(years_dv_experience) %>% 
-  # mutate(years_dv_experience = as.character(years_dv_experience),
-  #        years_dv_experience = factor(years_dv_experience, levels = c("Less than 1 year", "1" , "2", "3", "4", "5", "6-10", "11-15","16-20", "21-25", "26-30", "More than 30"), labels = c("Less than 1 year", "1" , "2", "3", "4", "5", "6-10", "11-15","16-20", "21-25", "26-30", "More than 30"))) %>%
   ggplot(aes(y= years_dv_experience, x = n))+
   geom_col() +
    theme(
      panel.grid.major.y = element_blank()
-   )
+   ) + 
+  labs(title = "Years of DV experience")
+
 ```
 
 What is respondents' salary? 
@@ -127,7 +110,10 @@ dat_1to60 %>%
   geom_col() +
    theme(
      panel.grid.major.y = element_blank()
-   )
+   ) +
+  labs(
+    title = "Respondents' salaries"
+  )
 ```
 
 ### Tools people use
@@ -160,7 +146,9 @@ tools_used %>%
   geom_tile() +
   theme(
     axis.text.x = element_text(angle = 90)
-  )
+
+  ) + 
+  labs(title = "Viz tools and respondents work career") 
 
 top_25_tools <- tools_used %>% 
   distinct(chron_id, tool) %>% 
@@ -205,7 +193,8 @@ ggraph(tools_graph, layout = "stress") +
   geom_node_point(color = "gray55", alpha = 0.8) +
   geom_edge_link(aes(alpha = n), show.legend = FALSE)+
   geom_node_text(aes(label = node_label)) +
-  theme_graph()
+  theme_graph() + 
+  labs(title = "Combination of tools respondents use")
 ```
 
 
