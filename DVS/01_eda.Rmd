@@ -2,7 +2,15 @@
 title: "DVS Analysis"
 author: "Amit Levinson"
 date: "2/6/2022"
-output: html_document
+output:
+  html_document:
+    theme: united
+    highlight: tango
+    code_folding: hide
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
 editor_options: 
   chunk_output_type: console
 ---
@@ -24,6 +32,7 @@ library(ggplot2)
 library(forcats)
 library(stringr)
 library(tidygraph)
+library(ggraph)
 ```
 
 ```{r}
@@ -140,32 +149,63 @@ tools_used %>%
 
 Tools used per work category?
 
-```{r}
+```{r fig.width = 10}
 tools_used %>% 
   count(response, tool, sort = T) %>% 
   filter(n > 49) %>% 
+  mutate(
+    response = str_wrap(response, width = 40)
+  ) %>% 
   ggplot(aes(x = tool, y = response, fill = n)) +
   geom_tile() +
   theme(
     axis.text.x = element_text(angle = 90)
   )
+
+top_25_tools <- tools_used %>% 
+  distinct(chron_id, tool) %>% 
+  count(tool, sort = T) %>% 
+  slice(1:25) %>% 
+  pull(tool)
 ```
 
 ### Tools people use together
 
 ```{r}
+# Extract 25 most frequently used tools
 tools_used_respodnent <- tools_used %>% 
+  filter(tool %in% top_25_tools) %>% 
   distinct(chron_id, tool)
-  
-tools_used_respodnent %>% 
+
+# Top 15 tools for adding node name
+top_15_tools <- tools_used_respodnent %>% 
+  distinct(chron_id, tool) %>% 
+  filter(tool %in% top_25_tools) %>% 
+  count(tool, sort = T) %>% 
+  slice(1:15) %>% 
+  pull(tool)
+
+# Tools used by respondent combination
+tools_agg <- tools_used_respodnent %>% 
   full_join(tools_used_respodnent, by = "chron_id") %>% 
   filter(tool.x < tool.y) %>% 
-  count(tool.x, tool.y, sort = T) 
-  
-
-
+  count(tool.x, tool.y)
 ```
 
+```{r}
+tools_graph <- as_tbl_graph(tools_agg) %>% 
+  activate(nodes) %>% 
+  mutate(
+    node_label = ifelse(name %in% top_15_tools, name, NA)
+  )
+```
 
+```{r}
+ggraph(tools_graph, layout = "stress") +
+  geom_node_point(color = "gray55", alpha = 0.8) +
+  geom_edge_link(aes(alpha = n), show.legend = FALSE)+
+  geom_node_text(aes(label = node_label)) +
+  theme_graph()
+```
 
 
