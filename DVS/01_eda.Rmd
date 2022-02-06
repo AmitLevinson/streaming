@@ -23,6 +23,7 @@ library(dplyr)
 library(ggplot2)
 library(forcats)
 library(stringr)
+library(tidygraph)
 ```
 
 ```{r}
@@ -105,7 +106,65 @@ dat_1to60 %>%
    )
 ```
 
+What is respondents' salary? 
 
+```{r}
+dat_1to60 %>% 
+  count(pay_annual, sort = T) %>% 
+  mutate(
+    pay_annual = factor(pay_annual)
+  ) %>% 
+  ggplot(aes(y= pay_annual, x = n))+
+  geom_col() +
+   theme(
+     panel.grid.major.y = element_blank()
+   )
+```
+
+### Tools people use
+
+```{r}
+tools_used <- dat_raw %>% 
+  pivot_longer(cols = contains("tools_for_dv_"), names_prefix = "tools_for_dv_", values_to = "tool",values_drop_na = TRUE) %>% 
+  pivot_longer(cols = starts_with("dv_roles_"), names_prefix = "dv_roles_", names_to = "role", values_to = "response", values_drop_na = TRUE) %>% 
+  select(chron_id ,  response, tool)
+```
+
+Tools used distinctly by respondent:
+
+```{r}
+tools_used %>% 
+  distinct(chron_id, tool) %>% 
+  count(tool, sort = T)
+```
+
+Tools used per work category?
+
+```{r}
+tools_used %>% 
+  count(response, tool, sort = T) %>% 
+  filter(n > 49) %>% 
+  ggplot(aes(x = tool, y = response, fill = n)) +
+  geom_tile() +
+  theme(
+    axis.text.x = element_text(angle = 90)
+  )
+```
+
+### Tools people use together
+
+```{r}
+tools_used_respodnent <- tools_used %>% 
+  distinct(chron_id, tool)
+  
+tools_used_respodnent %>% 
+  full_join(tools_used_respodnent, by = "chron_id") %>% 
+  filter(tool.x < tool.y) %>% 
+  count(tool.x, tool.y, sort = T) 
+  
+
+
+```
 
 
 
