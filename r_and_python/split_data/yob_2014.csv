@@ -1,0 +1,591 @@
+owner_id,age,gender,city_district,quarter,primary_breed,is_hybrid,secondary_breed,is_secondary_hybrid,breed_type,dog_yob,dog_gender,dog_color
+4281,61-70,w,9,91,Chihuahua,NA,NA,NA,K,2014,w,schwarz/weiss/braun
+5088,51-60,m,7,72,Labrador Retriever,NA,NA,NA,I,2014,w,schwarz
+6071,61-70,m,3,34,Cocker Spaniel,NA,Labrador Retriever,NA,I,2014,m,schwarz
+19004,51-60,m,5,52,Malteser,NA,NA,NA,K,2014,m,weiss
+20949,61-70,m,11,111,Shiba Inu,Mischling,NA,NA,K,2014,w,beige
+22776,51-60,m,11,119,Berner Sennenhund,NA,NA,NA,I,2014,m,tricolor
+22956,41-50,m,10,101,Cocker Spaniel,NA,NA,NA,K,2014,m,orange Schimmel
+62389,71-80,m,8,83,Boxer,NA,NA,NA,I,2014,w,gestromt
+70788,31-40,m,7,71,Mops,NA,Beagle,NA,K,2014,w,braun
+80169,41-50,w,4,42,Jack Russel Terrier,NA,Wolfspitz,NA,K,2014,m,schwarz
+80188,51-60,w,10,101,Mischling klein,NA,NA,NA,K,2014,m,braun
+80661,61-70,w,7,72,Chihuahua,NA,NA,NA,K,2014,w,schwarz/beige
+80778,61-70,m,2,23,Yorkshire Terrier,NA,NA,NA,K,2014,w,schwarz/braun
+80883,51-60,w,7,73,Galgo Español,NA,NA,NA,I,2014,w,braun gestromt
+80972,71-80,m,7,74,Hovawart,NA,NA,NA,I,2014,m,schwarz
+81116,51-60,w,7,74,Französische Bulldogge,NA,Mops,NA,K,2014,w,beige/schwarz
+81245,71-80,w,8,81,Mischling klein,NA,NA,NA,K,2014,w,schwarz
+81251,51-60,w,2,24,Irish Terrier,NA,NA,NA,I,2014,w,rot/braun
+81366,61-70,w,10,101,Greyhound,NA,NA,NA,I,2014,w,schwarz
+81387,51-60,w,8,82,Mischling gross,NA,NA,NA,I,2014,w,schwarz/braun
+81598,71-80,w,3,31,Mischling klein,NA,NA,NA,K,2014,w,schwarz
+81640,71-80,w,10,101,Cairn Terrier,NA,NA,NA,K,2014,m,beige
+81721,81-90,m,6,63,Bolonka Zwetna,NA,NA,NA,K,2014,m,schwarz/braun
+81772,61-70,m,11,119,Labrador Retriever,NA,NA,NA,I,2014,w,schwarz
+81849,51-60,w,11,119,Chinese Crested,NA,NA,NA,K,2014,w,weiss/orange
+81986,51-60,m,11,119,Labrador Retriever,NA,NA,NA,I,2014,m,hellbraun
+82081,61-70,m,2,23,Galgo Español,NA,NA,NA,I,2014,m,weiss/schwarz
+82338,51-60,w,11,115,Islandhund,NA,NA,NA,K,2014,m,grau/beige
+82370,41-50,w,2,21,Border Collie,NA,Appenzeller Sennenhund,NA,I,2014,w,schwarz/braun/weiss
+82414,51-60,w,11,119,Jack Russel Terrier,NA,NA,NA,K,2014,m,tricolor
+82512,61-70,w,6,63,Bichon frisé,NA,NA,NA,K,2014,m,weiss
+82591,81-90,m,7,74,Dachshund,NA,NA,NA,K,2014,m,schwarz/rot
+82671,51-60,w,7,74,Continental Bulldog,NA,NA,NA,I,2014,w,rot/weiss
+82700,71-80,m,7,72,Labrador Retriever,NA,NA,NA,I,2014,m,schwarz
+82806,71-80,m,6,61,Deutscher Schäfer,NA,NA,NA,I,2014,w,grau
+82834,61-70,w,11,111,Beagle,NA,NA,NA,K,2014,m,tricolor
+83049,71-80,m,10,101,Mischling gross,NA,NA,NA,I,2014,w,weiss/beige
+83084,51-60,w,4,42,Malteser,NA,NA,NA,K,2014,m,weiss
+83154,51-60,w,6,61,Golden Retriever,NA,NA,NA,I,2014,w,golden
+83425,71-80,m,6,63,Australian Shepherd,NA,NA,NA,I,2014,m,tricolor
+83479,71-80,m,11,115,Mittelpudel,NA,NA,NA,K,2014,w,black/tan
+83539,51-60,w,7,71,Schäfer,NA,NA,NA,I,2014,w,weiss
+83677,41-50,m,3,34,Mops,NA,NA,NA,K,2014,m,schwarz
+83937,61-70,w,3,31,Labrador Retriever,NA,Pudel,NA,I,2014,m,schwarz/weiss
+84079,41-50,w,3,31,Bordeaux Dogge,NA,NA,NA,I,2014,m,braun
+84224,51-60,w,12,122,Berner Sennenhund,Mischling,NA,NA,I,2014,w,schwarz/weiss
+84287,51-60,w,4,42,Deutsche Dogge,NA,NA,NA,I,2014,m,schwarz
+84358,71-80,m,7,72,Skye Terrier,NA,NA,NA,K,2014,w,brindle
+84393,41-50,w,10,102,Französische Bulldogge,NA,NA,NA,K,2014,w,dunkel gestromt
+84584,61-70,w,7,74,Flat Coated Retriever,NA,NA,NA,I,2014,w,braun
+84638,51-60,m,7,71,Foxterrier,NA,NA,NA,K,2014,m,tricolor
+84714,51-60,w,9,91,Labrador Retriever,NA,NA,NA,I,2014,w,braun
+84802,51-60,w,9,92,Chihuahua,NA,NA,NA,K,2014,w,tricolor
+84805,51-60,w,11,119,Bolonka Zwetna,NA,NA,NA,K,2014,w,schwarz/weiss
+84946,51-60,m,10,101,Irish Setter,NA,NA,NA,I,2014,m,mahagoni
+85000,71-80,w,6,61,Yorkshire Terrier,NA,NA,NA,K,2014,w,schwarz
+85233,61-70,w,11,119,Pudel,NA,NA,NA,K,2014,m,braun
+85253,51-60,m,12,121,Beagle,NA,NA,NA,K,2014,m,tricolor
+85263,71-80,w,11,119,Englische Bulldogge,NA,NA,NA,I,2014,m,fauve
+85521,71-80,w,7,74,Mischling klein,NA,NA,NA,K,2014,w,braun/weiss
+85653,41-50,w,11,111,Mischling gross,NA,NA,NA,I,2014,m,beige/weiss
+85779,51-60,w,9,92,Flat Coated Retriever,NA,NA,NA,I,2014,w,schwarz
+85993,41-50,m,4,42,Jack Russel Terrier,NA,Wolfspitz,NA,K,2014,m,braun/weiss
+86086,61-70,w,7,71,Gordon Setter,NA,NA,NA,I,2014,w,black/tan
+86095,31-40,m,7,72,Cane Corso,NA,NA,NA,I,2014,m,gestromt
+86316,71-80,m,10,101,Flat Coated Retriever,NA,NA,NA,I,2014,m,schwarz
+86320,41-50,m,5,52,Chihuahua,NA,NA,NA,K,2014,m,weiss/schwarz
+86429,51-60,w,12,123,Schäfer,Mischling,NA,NA,I,2014,m,schwarz/braun
+86447,61-70,w,10,101,Irish Terrier,NA,NA,NA,I,2014,w,rot
+86609,81-90,w,2,21,Zwergpudel,NA,NA,NA,K,2014,m,apricot
+86660,61-70,w,2,21,Mischling klein,NA,NA,NA,K,2014,m,schwarz/braun
+86692,51-60,m,7,74,Labrador Retriever,NA,NA,NA,I,2014,w,braun
+86788,61-70,w,1,13,Mischling klein,NA,NA,NA,K,2014,w,weiss/beige
+86850,31-40,m,4,44,Terrier,Mischling,NA,NA,K,2014,w,beige
+87145,71-80,m,2,24,Flat Coated Retriever,NA,NA,NA,I,2014,w,schwarz
+87159,51-60,w,8,82,Dachshund,NA,NA,NA,K,2014,w,sandfarbig
+87185,51-60,w,9,91,Boxer,NA,NA,NA,I,2014,w,braun
+87297,51-60,w,7,71,Bolonka Zwetna,NA,NA,NA,K,2014,m,braun/beige
+87331,31-40,w,11,115,Rhodesian Ridgeback,NA,NA,NA,I,2014,m,weizen
+87394,51-60,m,9,92,Bolonka Zwetna,NA,NA,NA,K,2014,w,schwarz/weiss
+87455,51-60,w,6,61,Galgo Español,NA,NA,NA,I,2014,m,braun/schwarz
+87524,51-60,w,7,72,Holländischer Schäfer,NA,NA,NA,I,2014,w,gestromt
+87560,51-60,m,11,119,Leonberger,NA,NA,NA,I,2014,m,braun/schwarz
+87757,41-50,w,7,72,Bolonka Zwetna,NA,NA,NA,K,2014,m,schwarz/weiss
+87832,41-50,m,11,119,Schäfer,Mischling,NA,NA,I,2014,m,schwarz
+87924,61-70,m,12,121,Appenzeller Sennenhund,NA,NA,NA,I,2014,w,tricolor
+88038,51-60,m,11,119,Appenzeller,NA,NA,NA,I,2014,w,tricolor
+88096,71-80,m,10,101,Labrador Retriever,NA,NA,NA,I,2014,m,schwarz
+88156,71-80,w,10,101,Mischling klein,NA,NA,NA,K,2014,w,hellbraun
+88183,51-60,w,8,83,Malteser,Mischling,NA,NA,K,2014,m,weiss/beige
+88250,31-40,w,7,74,Sibirischer Husky,NA,NA,NA,I,2014,m,weiss/braun/schwarz
+88250,31-40,w,7,74,Sibirischer Husky,NA,NA,NA,I,2014,m,weiss/braun/schwarz
+88339,61-70,w,9,91,Havaneser,NA,NA,NA,K,2014,m,weiss
+88421,51-60,m,10,101,Mischling klein,NA,NA,NA,K,2014,w,tricolor
+88485,41-50,w,3,33,Sheltie,NA,NA,NA,K,2014,w,tricolor
+88526,31-40,w,4,44,Yorkshire Terrier,NA,NA,NA,K,2014,w,schwarz/braun
+88526,31-40,w,4,44,Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/braun
+88546,51-60,w,7,72,Parson Russell Terrier,NA,NA,NA,K,2014,w,tricolor
+88585,41-50,w,11,111,Pinscher,NA,NA,NA,K,2014,w,schwarz/braun
+88656,31-40,w,10,101,Berger blanc Suisse,NA,NA,NA,I,2014,w,weiss
+88664,41-50,m,8,83,Jack Russel Terrier,NA,NA,NA,K,2014,m,tricolor
+88671,71-80,m,1,11,Mischling klein,NA,NA,NA,K,2014,w,schwarz/weiss
+88703,41-50,w,12,121,Deutscher Schäfer,NA,NA,NA,I,2014,w,schwarz/braun
+88742,51-60,w,12,122,Labrador Retriever,NA,NA,NA,I,2014,w,schwarz
+88843,71-80,m,10,101,West Highland White Terrier,NA,NA,NA,K,2014,m,weiss
+88998,51-60,w,10,102,Goldendoodle,NA,NA,NA,I,2014,w,creme
+89293,41-50,m,11,115,Shih Tzu,NA,NA,NA,K,2014,w,rot/weiss
+89338,41-50,m,5,52,Anatolischer Hirtenhund,NA,NA,NA,I,2014,m,beige/schwarz
+89347,71-80,w,4,41,West Highland White Terrier,NA,NA,NA,K,2014,m,weiss
+89572,41-50,w,3,31,Pinscher,Mischling,NA,NA,K,2014,w,braun schwarz gestromt
+90503,61-70,m,2,21,Bordeaux Dogge,NA,NA,NA,I,2014,m,rot
+90579,71-80,w,11,111,Bolonka Zwetna,NA,NA,NA,K,2014,w,schwarz lohfarbig
+90619,51-60,w,9,91,Mischling klein,NA,NA,NA,K,2014,m,schwarz
+92159,61-70,w,7,73,Jack Russel Terrier,NA,NA,NA,K,2014,m,braun/weiss
+92574,41-50,w,11,119,Prager Rattler,NA,NA,NA,K,2014,w,schwarz/braun
+92575,51-60,w,5,52,Windhund,Mischling,NA,NA,I,2014,m,grau/schwarz
+93041,31-40,w,9,92,Französische Bulldogge,NA,NA,NA,K,2014,w,brindle
+93237,51-60,w,10,101,Mischling gross,NA,NA,NA,I,2014,m,grau/weiss
+93299,51-60,m,12,122,Russischer Terrier,NA,NA,NA,I,2014,m,schwarz
+93307,41-50,m,4,42,Malinois,NA,NA,NA,I,2014,w,beige
+93540,51-60,w,5,51,Mops,NA,Beagle,NA,K,2014,w,schwarz
+94348,51-60,m,11,115,Pekingese,NA,NA,NA,K,2014,m,beige/schwarz
+95066,31-40,m,8,81,Weimaraner,NA,NA,NA,I,2014,w,silber
+95590,41-50,m,3,31,Zwergpinscher,Mischling,NA,NA,K,2014,m,schwarz/braun/weiss
+95656,31-40,m,4,41,Französische Bulldogge,NA,NA,NA,K,2014,m,gestromt
+96522,41-50,m,9,91,Terrier,Mischling,NA,NA,K,2014,m,beige
+96527,61-70,m,7,72,Bergamasker,NA,NA,NA,I,2014,m,red merle
+98937,61-70,w,8,82,Labradoodle,NA,NA,NA,I,2014,m,hellfarben
+98953,61-70,w,12,123,Chihuahua,NA,NA,NA,K,2014,w,weiss
+99335,61-70,w,10,101,Chihuahua,NA,NA,NA,K,2014,w,schwarz/weiss
+99339,51-60,w,7,74,Cavalier King Charles Spaniel,NA,Pudel,NA,K,2014,w,apricot
+99724,41-50,w,11,119,Shih Tzu,NA,NA,NA,K,2014,w,rot/weiss
+99808,41-50,w,3,33,Mops,NA,NA,NA,K,2014,w,beige/schwarz
+100078,31-40,w,3,34,Zwergspitz,NA,Pomeranian,NA,K,2014,m,braun
+100287,21-30,w,10,101,Spitz,NA,NA,NA,K,2014,m,weiss
+100398,41-50,w,12,122,Golden Retriever,NA,NA,NA,I,2014,m,beige
+100402,51-60,w,9,91,Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/braun
+101630,31-40,w,12,121,Pinscher,NA,NA,NA,K,2014,w,hellbraun
+101926,31-40,w,11,111,Boston Terrier,NA,NA,NA,K,2014,m,schwarz/weiss
+102663,31-40,w,9,91,Mischling klein,NA,NA,NA,K,2014,w,tricolor
+103063,31-40,w,11,115,Yorkshire Terrier,NA,NA,NA,K,2014,m,braun/grau
+103366,71-80,m,11,119,Deutscher Schäfer,NA,NA,NA,I,2014,w,schwarz/braun
+103885,51-60,w,11,111,Yorkshire Terrier,NA,NA,NA,K,2014,m,beige/braun/schwarz
+104568,71-80,w,7,71,Lhasa Apso,NA,Malteser,NA,K,2014,w,schwarz/braun
+104643,51-60,w,9,92,Bolonka Zwetna,NA,NA,NA,K,2014,w,braun
+104765,71-80,w,7,74,Dackel,NA,Yorkshire Terrier,NA,K,2014,m,grau/beige
+105279,21-30,w,6,61,Mischling gross,NA,NA,NA,I,2014,w,beige
+105298,61-70,w,11,119,Bolonka Zwetna,NA,NA,NA,K,2014,m,weiss/schwarz
+105439,31-40,m,10,101,Cavalier King Charles Spaniel,NA,NA,NA,K,2014,w,braun/weiss
+105512,41-50,w,11,111,Border Collie,NA,Bergamasker,NA,I,2014,w,tricolor
+105585,41-50,w,9,92,Papillon,NA,NA,NA,K,2014,m,schwarz/weiss
+105585,41-50,w,9,92,Papillon,NA,NA,NA,K,2014,m,schwarz/weiss
+105663,71-80,w,10,101,Havaneser,NA,NA,NA,K,2014,m,schwarz/weiss
+106194,41-50,m,6,63,Slovensky Cuvac,NA,NA,NA,I,2014,m,weiss
+107607,31-40,w,9,91,Zwergpinscher,NA,NA,NA,K,2014,m,schwarz/rot
+108077,41-50,w,2,23,Labrador Retriever,NA,NA,NA,I,2014,w,hellbraun
+108127,61-70,m,1,13,Chinese Crested,NA,NA,NA,K,2014,m,tricolor
+108326,51-60,w,8,82,Parson Russell Terrier,NA,NA,NA,K,2014,m,tricolor
+109174,51-60,w,7,74,Labrador Retriever,NA,NA,NA,I,2014,w,braun
+109468,41-50,w,7,71,Chihuahua,NA,NA,NA,K,2014,w,hellbraun
+110700,51-60,w,11,119,Bolonka Zwetna,Mischling,NA,NA,K,2014,w,weiss
+112111,51-60,m,2,24,Chesapeake Bay Retriever,NA,NA,NA,I,2014,w,braun
+112995,41-50,m,3,34,Labrador Retriever,Mischling,NA,NA,I,2014,w,grau meliert
+113147,51-60,w,5,51,Mischling klein,NA,NA,NA,K,2014,m,schwarz
+113422,41-50,w,12,122,Yorkshire Terrier,NA,NA,NA,K,2014,m,beige/grau/weiss
+114038,51-60,m,12,121,Entlebucher Sennenhund,NA,NA,NA,I,2014,w,tricolor
+114125,31-40,w,6,63,Collie,Mischling,NA,NA,I,2014,m,tricolor
+114500,21-30,w,8,82,Whippet,NA,Boxer,NA,I,2014,w,braun
+114507,21-30,m,10,101,Französische Bulldogge,NA,NA,NA,K,2014,m,schwarz gestromt
+114913,51-60,m,3,34,Französische Bulldogge,NA,NA,NA,K,2014,m,weiss/braun
+115141,21-30,w,7,74,Mischling klein,NA,NA,NA,K,2014,w,beige/weiss
+115912,71-80,w,7,71,Sheltie,NA,NA,NA,K,2014,w,schwarz/weiss
+116418,41-50,w,10,101,Deutsche Dogge,NA,NA,NA,I,2014,w,schwarz
+116950,31-40,w,12,123,Miniature Australien Shepard,NA,NA,NA,K,2014,m,red merle
+117966,51-60,w,3,31,Chihuahua,NA,NA,NA,K,2014,m,tricolor
+117985,31-40,w,9,92,Deutscher Pinscher,NA,NA,NA,I,2014,m,schwarz
+118131,21-30,m,1,11,Deutscher Schäfer,NA,NA,NA,I,2014,m,schwarz
+118299,31-40,m,8,81,Zwergspitz,NA,NA,NA,K,2014,w,orange
+119723,31-40,w,2,21,Chihuahua,NA,NA,NA,K,2014,m,schwarz/weiss
+119851,61-70,w,11,115,Chihuahua,NA,NA,NA,K,2014,w,beige
+120105,41-50,w,2,24,Chinese Crested,NA,NA,NA,K,2014,m,grau/weiss
+120191,51-60,w,6,63,Lagotto Romagnolo,NA,NA,NA,I,2014,w,bianco-aranico
+120193,31-40,m,6,61,Labrador Retriever,NA,NA,NA,I,2014,m,dunkelbraun
+120303,21-30,w,12,122,Malteser,NA,NA,NA,K,2014,m,weiss
+120408,31-40,w,11,115,Mops,NA,NA,NA,K,2014,m,beige
+120630,31-40,m,5,52,Chihuahua,NA,NA,NA,K,2014,w,weiss/beige
+120632,21-30,w,2,21,Chihuahua,NA,NA,NA,K,2014,m,tricolor
+120632,21-30,w,2,21,Chihuahua,NA,NA,NA,K,2014,m,braun/weiss
+120669,41-50,w,1,13,Dackel,Mischling,NA,NA,K,2014,m,hellbraun
+120714,51-60,w,10,101,Havaneser,NA,NA,NA,K,2014,m,hellfarben
+120727,51-60,w,11,111,Belgischer Schäfer,NA,NA,NA,I,2014,m,fauve
+120741,61-70,w,11,111,Bolonka Zwetna,NA,NA,NA,K,2014,m,schwarz/weiss
+120791,21-30,w,2,21,Chihuahua,NA,NA,NA,K,2014,m,weiss/braun
+120829,41-50,w,11,115,Malteser,NA,NA,NA,K,2014,m,weiss
+120895,21-30,w,11,115,Französische Bulldogge,NA,NA,NA,K,2014,w,schwarz/weiss
+120899,31-40,w,7,71,Bernhardiner,NA,NA,NA,I,2014,m,rot/weiss
+121006,61-70,w,7,72,Lagotto Romagnolo,NA,NA,NA,I,2014,m,weiss
+121062,51-60,w,8,82,Malteser,NA,NA,NA,K,2014,w,weiss
+121072,21-30,w,8,82,Mops,NA,NA,NA,K,2014,w,schwarz
+121125,21-30,m,11,115,Miniature Bull Terrier,NA,NA,NA,K,2014,m,gestromt
+121135,41-50,w,10,101,Flat Coated Retriever,NA,NA,NA,I,2014,m,schwarz
+121165,41-50,w,7,73,Bolonka Zwetna,NA,NA,NA,K,2014,m,braun/weiss
+121182,51-60,w,10,101,Lagotto Romagnolo,NA,NA,NA,I,2014,w,braun
+121216,51-60,m,7,73,Shetland Sheepdog,NA,NA,NA,K,2014,m,braun/weiss
+121223,41-50,w,10,102,Beagle,NA,NA,NA,K,2014,m,tricolor
+121225,51-60,w,11,119,Havaneser,NA,NA,NA,K,2014,w,schwarz/weiss
+121229,51-60,w,8,82,Goldendoodle,NA,NA,NA,I,2014,m,blondfarben
+121282,41-50,w,7,73,Lagotto Romagnolo,NA,NA,NA,I,2014,w,weiss
+121290,21-30,w,11,115,Mischling gross,NA,NA,NA,I,2014,w,braun gestromt
+121334,61-70,w,8,82,Malteser,NA,Havaneser,NA,K,2014,w,schwarz/weiss
+121434,61-70,m,9,92,Jack Russel Terrier,NA,NA,NA,K,2014,m,tricolor
+121455,21-30,w,11,111,Basenji,NA,NA,NA,K,2014,w,rot/weiss
+121474,41-50,w,9,92,Mischling gross,NA,NA,NA,I,2014,m,schwarz/weiss
+121476,41-50,w,9,92,Yorkshire Terrier,NA,NA,NA,K,2014,w,schwarz/braun
+121517,21-30,w,11,115,Malteser,NA,NA,NA,K,2014,w,beige
+121522,11-20,w,9,92,Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/braun
+121523,41-50,w,1,11,Labradoodle,NA,Pudel,NA,I,2014,m,creme
+121528,41-50,w,4,42,Shih Tzu,NA,NA,NA,K,2014,w,weiss/braun
+121532,21-30,m,11,115,Cocker Spaniel,NA,NA,NA,K,2014,m,rot
+121536,41-50,w,6,61,Prager Rattler,NA,NA,NA,K,2014,m,braun
+121539,21-30,m,9,92,Entlebucher Sennenhund,Mischling,NA,NA,I,2014,m,tricolor
+121541,51-60,w,7,71,Bergamasker,NA,Belgischer Schäfer,NA,I,2014,m,grau
+121543,21-30,w,7,73,Continental Bulldog,NA,NA,NA,I,2014,m,gestromt
+121544,21-30,w,12,122,Pinscher,NA,NA,NA,K,2014,m,braun
+121545,41-50,m,8,81,Mittelpudel,NA,NA,NA,K,2014,m,apricot
+121549,51-60,m,9,92,Shih Tzu,NA,NA,NA,K,2014,w,schwarz/weiss
+121557,51-60,w,6,61,Yorkshire Terrier,NA,NA,NA,K,2014,w,tricolor
+121736,61-70,w,4,42,Yorkshire Terrier,NA,NA,NA,K,2014,m,braun/schwarz
+121746,41-50,m,11,115,Golden Retriever,NA,NA,NA,I,2014,m,golden
+121747,21-30,w,1,11,Bolonka Zwetna,NA,NA,NA,K,2014,m,choco
+121750,11-20,w,6,61,Yorkshire Terrier,NA,NA,NA,K,2014,w,schwarz/braun
+121799,41-50,w,2,21,Chihuahua,NA,NA,NA,K,2014,w,rot/weiss
+121859,31-40,w,5,51,Cocker Spaniel,Mischling,NA,NA,K,2014,m,grau/schwarz
+121883,21-30,w,7,73,Zwergpinscher,NA,Rehpinscher,NA,K,2014,w,schwarz/braun
+121994,41-50,w,4,41,Chihuahua,NA,NA,NA,K,2014,w,weiss
+122011,61-70,w,4,41,Labrador Retriever,NA,NA,NA,I,2014,m,gelb
+122026,41-50,m,5,51,Chihuahua,NA,NA,NA,K,2014,m,schwarz/braun
+122049,21-30,m,3,34,Labrador Retriever,NA,NA,NA,I,2014,m,braun
+122108,41-50,w,4,41,Zwergpinscher,NA,Rehpinscher,NA,K,2014,w,schwarz/braun
+122139,61-70,w,12,122,Yorkshire Terrier,NA,NA,NA,K,2014,m,black/tan
+122140,21-30,w,10,101,Jack Russel Terrier,NA,NA,NA,K,2014,w,tricolor
+122160,21-30,w,3,34,Französische Bulldogge,NA,NA,NA,K,2014,m,braun/weiss
+122247,31-40,w,10,101,Miniature Australien Shepard,NA,NA,NA,K,2014,w,vierfarbig
+122250,31-40,m,10,101,Mischling gross,NA,NA,NA,I,2014,w,schwarz/braun
+122257,21-30,m,12,123,Beagle,NA,NA,NA,K,2014,m,tricolor
+122261,21-30,w,5,52,Welsh Corgi Pembroke,NA,NA,NA,K,2014,m,rot/weiss
+122290,31-40,w,3,34,Basset Hound,NA,NA,NA,I,2014,m,tricolor
+122291,31-40,w,6,63,Rhodesian Ridgeback,NA,NA,NA,I,2014,m,braun
+122310,41-50,w,12,121,Malteser,NA,NA,NA,K,2014,m,weiss
+122312,31-40,m,3,31,Mischling gross,NA,NA,NA,I,2014,w,braun/schwarz
+122313,21-30,w,9,91,Chihuahua,NA,NA,NA,K,2014,m,weiss
+122315,41-50,m,2,23,Golden Retriever,NA,NA,NA,I,2014,w,golden
+122356,31-40,w,9,92,Yorkshire Terrier,NA,NA,NA,K,2014,w,black/tan
+122367,21-30,w,9,92,Vorstehhund,NA,Boxer,NA,I,2014,w,hellbraun
+122376,41-50,m,4,42,English Cocker Spaniel,NA,NA,NA,K,2014,w,rot
+122378,61-70,w,2,21,Portugiesischer Wasserhund,NA,NA,NA,I,2014,m,braun
+122389,41-50,m,2,21,American Cocker Spaniel,NA,Zwergpudel,NA,K,2014,m,apricot
+122409,41-50,m,2,24,Finnischer Lapphund,NA,NA,NA,I,2014,w,schwarz/beige
+122416,41-50,w,11,115,Französische Bulldogge,NA,NA,NA,K,2014,w,braun
+122417,51-60,w,4,44,Malteser,Mischling,NA,NA,K,2014,m,weiss/beige
+122450,51-60,w,3,34,Malteser,NA,NA,NA,K,2014,m,weiss
+122481,21-30,w,12,122,Mops,NA,NA,NA,K,2014,m,beige
+122512,41-50,w,2,24,Irish Terrier,NA,NA,NA,I,2014,w,rot
+122512,41-50,w,2,24,Irish Terrier,NA,NA,NA,I,2014,w,rot/beige
+122513,31-40,w,7,73,Chihuahua,NA,NA,NA,K,2014,m,rot/braun
+122521,31-40,w,9,92,Shar Pei,NA,NA,NA,I,2014,m,braun
+122561,21-30,w,10,101,American Bulldog,NA,NA,NA,I,2014,w,braun
+122565,41-50,m,11,119,Yorkshire Terrier,NA,NA,NA,K,2014,m,blue/tan
+122613,21-30,m,10,101,Französische Bulldogge,NA,NA,NA,K,2014,m,fauve
+122624,71-80,m,6,61,Mischling klein,NA,NA,NA,K,2014,w,schwarz/weiss
+122630,41-50,w,6,61,Golden Retriever,NA,NA,NA,I,2014,w,golden
+122650,31-40,w,11,115,Shiba Inu,NA,NA,NA,K,2014,w,schwarz
+122713,41-50,w,11,111,Jack Russel Terrier,NA,NA,NA,K,2014,w,tricolor
+122719,31-40,m,3,33,Mischling gross,NA,NA,NA,I,2014,w,schwarz
+122832,21-30,w,4,44,Continental Bulldog,NA,NA,NA,I,2014,m,rotbraun
+122863,51-60,w,10,102,Malteser,NA,NA,NA,K,2014,m,weiss
+122865,31-40,w,3,34,Mischling klein,NA,NA,NA,K,2014,w,blondfarben
+122866,51-60,m,12,122,Lagotto Romagnolo,NA,NA,NA,I,2014,m,weiss/orange
+122870,21-30,w,5,51,Labrador Retriever,NA,Husky,NA,I,2014,w,hellbraun
+122877,31-40,w,7,74,Rauhaar Dackel,NA,NA,NA,K,2014,w,saufarben
+122915,21-30,m,12,121,Pekingese,NA,NA,NA,K,2014,m,braun/schwarz
+122929,41-50,w,11,111,Bichon,NA,NA,NA,K,2014,m,braun
+122947,31-40,w,11,115,Zwergschnauzer,NA,NA,NA,K,2014,w,schwarz
+122951,41-50,w,11,115,Pinscher,NA,NA,NA,K,2014,m,schwarz/braun
+122951,41-50,w,11,115,Pinscher,NA,NA,NA,K,2014,w,schwarz/braun
+122970,31-40,w,3,34,Französische Bulldogge,NA,NA,NA,K,2014,m,schwarz gestromt
+122992,21-30,w,12,122,Chihuahua,NA,NA,NA,K,2014,w,weiss
+123006,61-70,w,12,121,Pudel,NA,NA,NA,K,2014,m,hellfarben
+123017,31-40,m,7,72,Bergamasker,NA,Collie,NA,I,2014,m,schwarz/grau
+123024,21-30,m,1,14,Französische Bulldogge,NA,NA,NA,K,2014,m,schwarz
+123074,21-30,w,12,123,Border Collie,NA,Entlebucher Sennenhund,NA,I,2014,m,schwarz/weiss
+123116,31-40,w,7,72,Rauhaar Dackel,NA,NA,NA,K,2014,w,rot/braun
+123126,41-50,w,6,61,Zwergpinscher,NA,NA,NA,K,2014,w,rot
+123190,31-40,w,7,74,Zwergpinscher,NA,Rehpinscher,NA,K,2014,m,schwarz/braun
+123218,31-40,w,2,21,Französische Bulldogge,NA,NA,NA,K,2014,w,beige/schwarz
+123224,31-40,w,3,34,Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/grau
+123237,21-30,w,7,74,Sheltie,NA,NA,NA,K,2014,m,blue/merle
+123242,41-50,w,1,11,Französische Bulldogge,NA,NA,NA,K,2014,m,schwarz
+123243,21-30,w,6,61,Barbet,NA,NA,NA,I,2014,m,schwarz
+123260,71-80,m,11,111,Chihuahua,NA,NA,NA,K,2014,m,schwarz
+123384,31-40,w,3,31,Mischling klein,NA,NA,NA,K,2014,m,hellbraun/weiss
+123402,31-40,w,2,21,Prager Rattler,NA,NA,NA,K,2014,m,schwarz/braun
+123432,21-30,w,6,63,Deutscher Boxer,NA,NA,NA,I,2014,m,gestromt
+123432,21-30,w,6,63,Mischling klein,NA,NA,NA,K,2014,w,schwarz/braun
+123452,51-60,w,9,91,Mischling gross,NA,NA,NA,I,2014,w,hellbraun
+123508,41-50,w,3,31,Yorkshire Terrier,NA,Zwergdackel,NA,K,2014,m,schwarz/braun
+123516,21-30,w,11,115,Jack Russel Terrier,NA,NA,NA,K,2014,w,tricolor
+123518,41-50,w,2,21,Havaneser,NA,NA,NA,K,2014,w,golden
+123522,51-60,w,7,72,Berner Sennenhund,NA,NA,NA,I,2014,m,tricolor
+123526,41-50,m,5,52,Zwergschnauzer,NA,NA,NA,K,2014,m,schwarz/silber
+123559,61-70,m,2,24,Golden Retriever,NA,NA,NA,I,2014,w,golden
+123564,41-50,w,6,63,Malteser,NA,NA,NA,K,2014,m,weiss
+123588,71-80,w,11,119,Grosspudel,NA,NA,NA,I,2014,m,schwarz
+123590,51-60,m,9,92,Zwergpinscher,NA,NA,NA,K,2014,m,schwarz/braun
+123594,21-30,w,11,111,Pinscher,NA,NA,NA,K,2014,w,schwarz/braun
+123606,41-50,w,11,115,Bolonka Zwetna,NA,NA,NA,K,2014,m,schwarz/weiss
+123607,51-60,m,11,119,Labrador Retriever,NA,Schäfer,NA,I,2014,w,schwarz
+123616,31-40,w,7,71,Border Collie,NA,NA,NA,I,2014,w,tricolor
+123617,41-50,m,8,83,Bayerischer Gebirgsschweisshund,NA,NA,NA,I,2014,w,rot/braun
+123619,71-80,w,11,115,Berner Sennenhund,NA,NA,NA,I,2014,m,tricolor
+123620,51-60,w,7,74,Nova Scotia Duck Tolling Retriever,NA,NA,NA,I,2014,m,rot/weiss
+123697,51-60,w,12,122,Landseer,NA,NA,NA,I,2014,m,weiss/schwarz
+123706,31-40,w,2,21,Magyar Viszla,NA,NA,NA,I,2014,m,braun
+123716,41-50,m,11,119,Labrador Retriever,NA,Berner Sennenhund,NA,I,2014,m,schwarz
+123734,41-50,w,7,72,Goldendoodle,NA,NA,NA,I,2014,m,schwarz
+123735,61-70,w,2,21,Jack Russel Terrier,NA,NA,NA,K,2014,w,tricolor
+123783,51-60,m,9,91,Mischling klein,NA,NA,NA,K,2014,m,weiss/braun
+123792,41-50,m,1,13,Labrador Retriever,Mischling,NA,NA,I,2014,w,weiss/gelb
+123808,51-60,m,4,42,Deutsche Dogge,NA,NA,NA,I,2014,w,schwarz
+123814,61-70,w,9,92,Mischling klein,NA,NA,NA,K,2014,w,braun
+123816,31-40,w,3,31,Terrier,Mischling,NA,NA,K,2014,w,beige
+123833,41-50,m,12,122,Jack Russel Terrier,NA,NA,NA,K,2014,m,tricolor
+123834,21-30,w,11,111,Continental Bulldog,NA,NA,NA,I,2014,m,schwarz/weiss
+123921,21-30,w,3,34,Chihuahua,NA,NA,NA,K,2014,w,tricolor
+123922,61-70,w,4,42,Malteser,NA,NA,NA,K,2014,w,weiss
+123935,21-30,w,9,92,Mops,NA,NA,NA,K,2014,m,beige
+123936,51-60,w,3,34,Chihuahua,NA,NA,NA,K,2014,w,weiss/braun
+123944,51-60,m,6,61,Goldendoodle,NA,Labradoodle,NA,I,2014,w,beige
+123946,31-40,w,11,119,Zwergspitz,NA,NA,NA,K,2014,w,braun
+123959,21-30,w,9,92,Malteser,NA,NA,NA,K,2014,m,weiss
+123960,31-40,m,9,92,Shiba Inu,NA,NA,NA,K,2014,m,rot
+123967,51-60,w,9,92,Havaneser,NA,NA,NA,K,2014,w,schwarz/braun/weiss
+123968,41-50,m,3,33,Chihuahua,NA,NA,NA,K,2014,w,blue
+123969,21-30,w,5,51,Boston Terrier,NA,NA,NA,K,2014,m,schwarz/weiss
+123981,31-40,w,9,92,Akita Inu,NA,NA,NA,I,2014,m,rot/weiss
+123983,21-30,w,8,83,Französische Bulldogge,NA,NA,NA,K,2014,w,schwarz gestromt
+123985,61-70,w,4,42,Malteser,NA,NA,NA,K,2014,w,weiss
+123986,21-30,m,9,92,Border Terrier,NA,NA,NA,K,2014,w,hellbraun
+124023,21-30,w,12,123,Australian Shepherd,Mischling,NA,NA,I,2014,m,tricolor
+124036,41-50,w,3,31,Mittelpudel,NA,NA,NA,K,2014,w,schwarz
+124080,31-40,w,3,31,Golden Retriever,NA,NA,NA,I,2014,m,beige
+124137,31-40,m,3,34,Mischling klein,NA,NA,NA,K,2014,m,schwarz
+124139,31-40,w,9,92,Samojede,NA,NA,NA,I,2014,m,weiss
+124259,31-40,m,12,121,Mops,NA,NA,NA,K,2014,m,beige
+124268,51-60,w,1,11,Zwergspitz,NA,NA,NA,K,2014,m,beige
+124332,21-30,w,11,111,Französische Bulldogge,NA,NA,NA,K,2014,m,braun
+124346,21-30,w,11,115,Labrador Retriever,NA,NA,NA,I,2014,w,schwarz
+124351,31-40,w,2,23,Labrador Retriever,NA,NA,NA,I,2014,m,braun
+124374,21-30,w,11,111,Chihuahua,NA,NA,NA,K,2014,m,red merle
+124376,31-40,w,11,119,Mops,NA,NA,NA,K,2014,m,schwarz
+124380,21-30,m,9,92,Rhodesian Ridgeback,NA,NA,NA,I,2014,w,red-wheaten
+124381,41-50,w,8,83,Berner Sennenhund,NA,NA,NA,I,2014,w,schwarz/braun/weiss
+124382,41-50,m,2,24,Labrador Retriever,NA,NA,NA,I,2014,m,silber
+124383,31-40,w,4,42,Malteser,NA,NA,NA,K,2014,w,weiss/creme
+124385,31-40,w,11,119,Rhodesian Ridgeback,NA,Vizsla,NA,I,2014,w,braun/weiss
+124417,51-60,w,3,33,Golden Retriever,NA,NA,NA,I,2014,m,golden
+124434,51-60,w,12,123,Altdeutscher Schäfer,NA,NA,NA,I,2014,w,schwarz/gelb
+124476,31-40,m,10,101,Labrador Retriever,NA,NA,NA,I,2014,m,grau
+124531,51-60,w,11,119,Dalmatiner,NA,NA,NA,I,2014,w,weiss/braun
+124537,21-30,w,12,122,Yorkshire Terrier,NA,NA,NA,K,2014,m,black/tan
+124562,31-40,w,11,115,Labrador Retriever,NA,NA,NA,I,2014,w,schwarz
+124645,51-60,w,3,33,Mischling klein,NA,NA,NA,K,2014,w,braun
+124647,31-40,w,5,52,Labrador Retriever,Mischling,NA,NA,I,2014,m,schwarz
+124653,41-50,w,7,72,Mischling gross,NA,NA,NA,I,2014,m,tricolor
+124665,21-30,m,10,101,Mischling klein,NA,NA,NA,K,2014,m,braun/weiss
+124672,41-50,w,9,91,Malteser,NA,NA,NA,K,2014,m,weiss
+124693,61-70,m,3,33,Berner Sennenhund,NA,NA,NA,I,2014,m,tricolor
+124702,21-30,w,11,111,Zwergspitz,NA,NA,NA,K,2014,m,weiss
+124764,41-50,w,8,82,Labradoodle,NA,NA,NA,I,2014,w,apricot
+124790,51-60,w,10,101,Mischling gross,NA,NA,NA,I,2014,w,braun/schwarz
+124798,41-50,m,9,92,Mischling klein,NA,NA,NA,K,2014,w,schwarz/braun
+124800,51-60,w,7,74,Mischling klein,NA,NA,NA,K,2014,m,schwarz
+124850,21-30,w,11,119,Chihuahua,NA,NA,NA,K,2014,m,creme
+124854,21-30,w,6,61,Cairn Terrier,NA,NA,NA,K,2014,m,braun gestromt
+124856,31-40,w,12,122,Australian Shepherd,NA,NA,NA,I,2014,m,tricolor
+124893,21-30,w,10,101,Samojede,NA,NA,NA,I,2014,m,weiss
+124936,21-30,w,12,123,Chihuahua,NA,NA,NA,K,2014,m,schwarz/braun
+124995,41-50,w,5,51,Bichon frisé,NA,NA,NA,K,2014,w,weiss
+125030,41-50,m,9,91,Chihuahua,NA,NA,NA,K,2014,w,weiss/schwarz
+125032,21-30,m,6,61,Jack Russel Terrier,NA,NA,NA,K,2014,w,tricolor
+125109,41-50,w,9,92,Zwergspitz,NA,NA,NA,K,2014,m,hellbraun
+125110,21-30,w,11,119,Chihuahua,NA,NA,NA,K,2014,w,black/tan
+125121,41-50,m,7,73,Pomeranian,NA,Zwergspitz,NA,K,2014,m,black/tan
+125123,61-70,w,9,91,Bichon maltais,NA,NA,NA,K,2014,w,weiss
+125130,31-40,w,3,31,Zwergspitz,NA,NA,NA,K,2014,m,hellbraun
+125168,41-50,w,6,61,Kooiker,NA,NA,NA,K,2014,m,weiss/orange
+125227,21-30,w,4,41,Mischling klein,NA,NA,NA,K,2014,w,tricolor
+125228,21-30,w,6,63,Labrador Retriever,NA,NA,NA,I,2014,w,schwarz
+125255,21-30,m,12,123,Yorkshire Terrier,NA,NA,NA,K,2014,w,black/tan
+125261,41-50,w,11,111,Malteser,NA,NA,NA,K,2014,w,weiss
+125277,61-70,w,7,72,Malteser,NA,Havaneser,NA,K,2014,m,schwarz/weiss
+125294,21-30,w,12,123,Labrador Retriever,NA,NA,NA,I,2014,w,schwarz
+125309,21-30,w,8,81,Yorkshire Terrier,NA,NA,NA,K,2014,m,steelblue
+125311,31-40,w,12,122,Bolonka Zwetna,NA,NA,NA,K,2014,m,schwarz/braun
+125326,11-20,w,3,31,Chihuahua,NA,NA,NA,K,2014,w,braun
+125328,31-40,m,3,31,Jack Russel Terrier,NA,NA,NA,K,2014,w,tricolor
+125330,41-50,w,10,101,Malteser,NA,NA,NA,K,2014,w,weiss
+125331,11-20,m,4,44,Biewer Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/weiss
+125332,41-50,m,5,51,Chihuahua,NA,NA,NA,K,2014,w,weiss/beige
+125334,41-50,m,9,92,Golden Retriever,NA,NA,NA,I,2014,w,blondfarben
+125338,31-40,w,4,44,Chihuahua,NA,NA,NA,K,2014,m,beige/weiss
+125339,21-30,w,9,92,Chihuahua,NA,NA,NA,K,2014,m,weiss/beige
+125342,21-30,w,12,121,Toypudel,NA,NA,NA,K,2014,m,apricot
+125347,21-30,w,6,61,Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/braun/weiss
+125348,41-50,m,4,42,Malteser,NA,NA,NA,K,2014,w,weiss
+125350,41-50,m,8,83,Pekingese,NA,NA,NA,K,2014,m,weiss
+125351,51-60,w,10,101,Malteser,NA,NA,NA,K,2014,w,weiss
+125358,21-30,w,9,92,Deutscher Schäfer,Mischling,NA,NA,I,2014,w,braun
+125399,41-50,m,12,123,Rottweiler,NA,NA,NA,I,2014,m,schwarz
+125469,41-50,w,12,122,Mischling klein,NA,NA,NA,K,2014,m,tricolor
+125470,21-30,w,10,101,Spitz,NA,NA,NA,K,2014,m,orange
+125568,51-60,w,7,72,Havaneser,NA,NA,NA,K,2014,w,schwarz
+125577,31-40,m,9,92,Shiba Inu,NA,NA,NA,K,2014,m,rot
+125610,21-30,w,9,91,Spitz,NA,NA,NA,K,2014,m,schwarz/grau
+125618,41-50,w,3,34,Malteser,NA,NA,NA,K,2014,m,weiss
+125672,21-30,w,3,34,Malteser,NA,NA,NA,K,2014,w,weiss
+125689,51-60,w,7,74,Mittelpudel,NA,NA,NA,K,2014,m,schwarz
+125729,31-40,m,12,123,Zwergschnauzer,NA,NA,NA,K,2014,m,schwarz/silber
+125743,31-40,w,11,111,Polnische Bracke,NA,NA,NA,I,2014,w,schwarz
+125749,41-50,w,2,24,Barbet,NA,NA,NA,I,2014,m,schwarz/weiss
+125751,41-50,w,12,122,Mischling klein,NA,NA,NA,K,2014,m,schwarz
+125752,51-60,m,11,119,Malteser,NA,NA,NA,K,2014,m,weiss
+125770,31-40,w,2,23,Malteser,NA,NA,NA,K,2014,w,weiss
+125776,61-70,w,2,24,Yorkshire Terrier,NA,NA,NA,K,2014,w,black/tan
+125783,21-30,m,12,121,Rottweiler,NA,Husky,NA,I,2014,m,schwarz/braun
+125784,41-50,m,5,51,Lagotto Romagnolo,NA,NA,NA,I,2014,w,braun/grau
+125785,41-50,w,7,74,Cavalier King Charles Spaniel,NA,NA,NA,K,2014,m,black/tan
+125794,51-60,w,2,24,Labrador Retriever,NA,NA,NA,I,2014,m,schwarz
+125808,61-70,m,7,72,Englische Bulldogge,NA,NA,NA,I,2014,w,braun/weiss
+125808,61-70,m,7,72,Englische Bulldogge,NA,NA,NA,I,2014,w,braun/weiss
+125816,41-50,m,12,121,Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/braun
+125820,31-40,m,8,82,Französische Bulldogge,NA,NA,NA,K,2014,m,beige
+125824,31-40,w,8,82,Mops,NA,NA,NA,K,2014,m,beige/schwarz
+125835,41-50,w,11,115,Bull Terrier,NA,NA,NA,II,2014,m,weiss
+125859,51-60,w,11,111,Jack Russel Terrier,Mischling,NA,NA,K,2014,m,braun
+125862,41-50,w,12,121,Chihuahua,NA,NA,NA,K,2014,m,schwarz
+125865,21-30,w,12,122,Zwergspitz,NA,Pomeranian,NA,K,2014,w,orange
+125876,21-30,w,11,119,Zwergspitz,NA,NA,NA,K,2014,m,sable
+125884,31-40,m,9,92,Weimaraner,NA,NA,NA,I,2014,m,grau/silber
+125898,41-50,w,11,119,Bolonka Zwetna,NA,NA,NA,K,2014,m,weiss/beige
+125901,31-40,m,2,24,Mischling gross,NA,NA,NA,I,2014,w,schwarz/braun/weiss
+125912,51-60,w,1,11,Yorkshire Terrier,NA,Biewer Yorkshire Terrier,NA,K,2014,m,schwarz/braun
+125937,41-50,m,6,63,Transylvanischer Laufhund,NA,NA,NA,I,2014,m,schwarz/braun
+125970,51-60,m,11,119,Zwergspitz,NA,Pomeranian,NA,K,2014,m,weiss
+125997,21-30,m,9,92,Englische Bulldogge,NA,NA,NA,I,2014,m,weiss
+126018,41-50,m,9,91,Mischling klein,NA,NA,NA,K,2014,w,schwarz/weiss
+126250,21-30,m,2,23,Mischling gross,NA,NA,NA,I,2014,m,schwarz/weiss
+126251,41-50,w,4,42,Malteser,NA,NA,NA,K,2014,w,weiss
+126349,21-30,w,8,83,Shih Tzu,NA,NA,NA,K,2014,m,hellbraun/weiss
+126386,51-60,w,9,91,Zwergpudel,NA,NA,NA,K,2014,w,schwarz
+126407,41-50,m,6,61,Mischling klein,NA,NA,NA,K,2014,w,weiss
+126431,21-30,w,12,123,Labrador Retriever,NA,NA,NA,I,2014,w,braun
+126454,31-40,m,5,52,Parson Russell Terrier,NA,NA,NA,K,2014,m,weiss/rot
+126480,31-40,w,2,21,Deutscher Schäfer,NA,NA,NA,I,2014,w,grau
+126590,21-30,w,6,61,Französische Bulldogge,NA,NA,NA,K,2014,w,weiss gestromt
+126597,61-70,m,4,42,Jack Russel Terrier,NA,Wolfspitz,NA,K,2014,m,hellbraun/weiss
+126617,41-50,w,7,74,Havaneser,NA,NA,NA,K,2014,w,weiss/beige
+126809,21-30,w,7,74,Französische Bulldogge,NA,NA,NA,K,2014,m,schwarz/weiss
+126911,21-30,w,4,44,Boston Terrier,NA,NA,NA,K,2014,m,braun gestromt
+126932,21-30,m,4,41,Chihuahua,NA,Pinscher,NA,K,2014,m,schwarz
+126933,61-70,w,7,74,Prager Rattler,NA,NA,NA,K,2014,w,schwarz/braun
+126944,61-70,m,12,122,Toypudel,NA,NA,NA,K,2014,m,weiss
+127016,21-30,w,8,82,Mischling klein,NA,NA,NA,K,2014,w,braun/weiss
+127106,51-60,w,12,123,Yorkshire Terrier,NA,NA,NA,K,2014,m,braun/grau
+127340,51-60,w,8,81,Mischling klein,NA,NA,NA,K,2014,w,schwarz
+127439,51-60,w,1,11,Malteser,NA,NA,NA,K,2014,m,weiss
+127660,51-60,w,4,44,Perro de Agua,Mischling,NA,NA,I,2014,m,schwarz/weiss
+127760,31-40,w,5,51,Shih Tzu,NA,NA,NA,K,2014,w,schwarz/weiss
+127885,31-40,w,9,92,Pinscher,NA,NA,NA,K,2014,m,braun
+128040,31-40,m,2,24,Shetland Sheepdog,NA,Pudel,NA,K,2014,m,schwarz/weiss
+128089,31-40,m,10,101,Whippet,NA,NA,NA,I,2014,w,rot/weiss
+128100,21-30,w,10,101,Labrador Retriever,NA,NA,NA,I,2014,m,schwarz
+128130,51-60,w,5,52,Italienisches Windspiel,NA,NA,NA,K,2014,w,sable
+128156,31-40,w,2,21,Chihuahua,NA,NA,NA,K,2014,w,rot/weiss
+128164,41-50,w,12,122,Malteser,NA,NA,NA,K,2014,m,weiss
+128403,61-70,m,4,42,Wolfspitz,NA,Jack Russel Terrier,NA,K,2014,m,tricolor
+128411,21-30,w,10,101,Mischling gross,NA,NA,NA,I,2014,m,schwarz
+128442,21-30,m,9,92,Jack Russel Terrier,NA,NA,NA,K,2014,m,weiss/braun
+128485,21-30,w,7,74,Magyar Viszla,NA,NA,NA,I,2014,w,gelb
+128634,61-70,m,3,33,Kangal,NA,NA,NA,I,2014,w,beige/schwarz
+128787,41-50,m,12,121,King Charles Spaniel,NA,NA,NA,K,2014,w,tricolor
+129067,31-40,w,9,92,Mischling klein,NA,NA,NA,K,2014,m,tricolor
+129088,21-30,w,3,34,Mittelspitz,NA,NA,NA,K,2014,m,schwarz schimmel
+129090,21-30,m,11,119,Beagle,NA,NA,NA,K,2014,m,tricolor
+129127,21-30,w,11,119,Chihuahua,NA,NA,NA,K,2014,m,braun/beige
+129184,41-50,m,7,73,Beagle,NA,NA,NA,K,2014,m,tricolor
+129434,21-30,w,7,72,Border Collie,NA,NA,NA,I,2014,w,schwarz/weiss
+129567,21-30,m,5,52,Französische Bulldogge,NA,NA,NA,K,2014,m,braun
+129626,41-50,w,9,91,Spitz,NA,Pomeranian,NA,K,2014,m,rot
+129646,31-40,m,3,34,Cocker Spaniel,NA,NA,NA,K,2014,w,rot
+129670,21-30,w,11,119,Chihuahua,NA,NA,NA,K,2014,w,blau
+129737,21-30,m,10,101,Mischling gross,NA,NA,NA,I,2014,m,schwarz/braun/weiss
+129781,71-80,m,9,91,Volpino,Mischling,NA,NA,K,2014,m,braun/schwarz
+129956,71-80,w,7,72,Skye Terrier,NA,NA,NA,K,2014,w,schwarz gestromt
+129974,71-80,w,11,119,Chihuahua,NA,NA,NA,K,2014,m,braun
+130042,41-50,w,1,14,Mops,NA,NA,NA,K,2014,m,beige
+130276,41-50,w,9,91,Chihuahua,NA,NA,NA,K,2014,m,rot/weiss
+130363,51-60,w,12,123,Beagle,NA,NA,NA,K,2014,w,tricolor
+130386,21-30,m,12,122,Mops,NA,NA,NA,K,2014,w,beige
+130472,31-40,m,4,42,Ratenero Bodeguero,NA,NA,NA,I,2014,m,schwarz/weiss
+130543,31-40,w,6,61,Mischling klein,NA,NA,NA,K,2014,w,schwarz/braun
+130600,51-60,m,4,42,Scottish Terrier,NA,NA,NA,K,2014,m,blondfarben
+130628,41-50,m,9,92,Französische Bulldogge,NA,NA,NA,K,2014,m,beige
+130668,31-40,w,10,101,Englische Bulldogge,NA,NA,NA,I,2014,m,weiss/orange
+130727,51-60,w,11,119,Australian Shepherd,NA,Labrador Retriever,NA,I,2014,w,schwarz
+130777,21-30,m,11,119,Sibirischer Husky,NA,NA,NA,I,2014,w,braun/weiss
+130798,21-30,w,4,42,Weimaraner,NA,NA,NA,I,2014,m,grau
+130829,21-30,w,9,92,Malteser,NA,NA,NA,K,2014,w,weiss
+130932,51-60,m,7,74,Labrador Retriever,NA,NA,NA,I,2014,m,schwarz
+130978,41-50,w,10,101,Mischling gross,NA,NA,NA,I,2014,m,schwarz/weiss
+130989,31-40,w,12,121,Tibetan Spaniel,NA,Dackel,NA,K,2014,m,braun
+130991,31-40,w,12,123,Deutsch Drahthaar,NA,Bergamasker,NA,I,2014,w,hellbraun
+131022,21-30,w,6,61,Sibirischer Husky,NA,NA,NA,I,2014,w,schwarz/weiss
+131031,31-40,m,11,111,Mops,NA,NA,NA,K,2014,m,beige
+131208,41-50,w,11,111,Yorkshire Terrier,NA,NA,NA,K,2014,m,schwarz/grau
+131318,21-30,w,11,111,Chihuahua,NA,NA,NA,K,2014,w,creme
+131368,41-50,w,10,101,Mischling klein,NA,NA,NA,K,2014,m,braun
+131476,21-30,w,4,44,Chihuahua,NA,NA,NA,K,2014,m,beige
+131568,31-40,w,11,111,Weimaraner,NA,NA,NA,I,2014,w,rehbraun
+131668,21-30,w,9,91,Spitz,NA,NA,NA,K,2014,w,braun
+131751,41-50,w,10,102,Labrador Retriever,NA,NA,NA,I,2014,m,schwarz
+131820,41-50,w,9,92,Husky,NA,NA,NA,I,2014,m,schwarz/grau/weiss
+131844,31-40,w,11,111,Französische Bulldogge,NA,NA,NA,K,2014,m,gestromt
+132194,21-30,w,12,123,Chihuahua,NA,NA,NA,K,2014,m,weiss/grau
+132276,21-30,m,4,44,Beagle,NA,NA,NA,K,2014,w,tricolor
+132292,21-30,w,2,24,Mischling gross,NA,NA,NA,I,2014,m,schwarz
+132298,41-50,w,12,121,Französische Bulldogge,NA,NA,NA,K,2014,w,schwarz/weiss
+132316,31-40,w,11,111,Mops,NA,NA,NA,K,2014,w,beige
+132377,21-30,w,11,119,Mischling klein,NA,NA,NA,K,2014,w,beige
+132393,21-30,w,9,92,Mischling klein,NA,NA,NA,K,2014,w,braun/weiss
+132420,21-30,w,7,74,Malteser,NA,NA,NA,K,2014,w,weiss
+132424,21-30,w,11,119,Französische Bulldogge,NA,NA,NA,K,2014,w,weiss/schwarz
+132452,41-50,w,3,34,Chihuahua,NA,NA,NA,K,2014,m,schwarz/weiss
+132456,41-50,w,5,51,Chihuahua,NA,NA,NA,K,2014,m,tricolor
+132456,41-50,w,5,51,Chihuahua,NA,NA,NA,K,2014,m,weiss
+132463,21-30,m,2,21,Mischling gross,NA,NA,NA,I,2014,m,schwarz/weiss
+132483,31-40,w,6,63,Yorkshire Terrier,NA,NA,NA,K,2014,w,steelblue/tan
+132498,21-30,m,11,119,Pinscher,NA,NA,NA,K,2014,m,schwarz
+132508,41-50,w,5,51,Cocker Spaniel,Mischling,NA,NA,K,2014,w,schwarz/braun/weiss
+132510,21-30,w,11,111,Golden Retriever,NA,Labrador Retriever,NA,I,2014,w,beige
+132529,41-50,w,7,73,West Highland White Terrier,NA,NA,NA,K,2014,m,weiss
+132539,21-30,m,10,101,Cocker Spaniel,NA,NA,NA,K,2014,w,beige
+132598,41-50,w,6,61,Podenco,NA,NA,NA,I,2014,m,hellbraun/weiss
+132605,31-40,w,6,61,Mischling klein,NA,NA,NA,K,2014,w,weiss/braun
+132650,21-30,w,2,24,Labrador Retriever,NA,NA,NA,I,2014,m,rot
+132694,21-30,w,3,33,Pinscher,NA,NA,NA,K,2014,w,schwarz/braun
+132872,31-40,m,9,91,English Springer Spaniel,NA,NA,NA,I,2014,w,braun/weiss
+132896,41-50,w,6,63,Mischling klein,NA,NA,NA,K,2014,m,weiss
+132963,41-50,w,11,111,Pinscher,NA,NA,NA,K,2014,w,schwarz
+132963,41-50,w,11,111,Pinscher,NA,NA,NA,K,2014,w,schwarz
+133003,21-30,m,3,31,Malinois,NA,NA,NA,I,2014,w,fauve
+133070,21-30,w,3,34,Mischling klein,NA,NA,NA,K,2014,w,braun
+133222,21-30,w,7,72,Zwergspitz,NA,NA,NA,K,2014,m,creme
+133245,31-40,m,4,44,Sennenhund,Mischling,NA,NA,I,2014,w,tricolor
+133364,31-40,w,3,31,Labrador Retriever,NA,NA,NA,I,2014,m,braun
+133377,41-50,w,9,92,Welsh Corgi,NA,NA,NA,K,2014,m,braun/weiss
+133378,21-30,w,2,21,Zwergschnauzer,NA,Mops,NA,K,2014,w,beige/braun
+133484,31-40,m,12,122,Dogo Argentino,NA,NA,NA,I,2014,m,weiss
+133488,21-30,w,12,121,Vorstehhund,Mischling,NA,NA,I,2014,w,braun
+133544,51-60,w,7,71,Jack Russel Terrier,NA,NA,NA,K,2014,w,beige/weiss
+133676,31-40,w,10,101,Schäfer,Mischling,NA,NA,I,2014,w,schwarz
+133772,41-50,w,1,14,Shih Tzu,NA,NA,NA,K,2014,w,weiss/beige
+133777,41-50,w,4,42,Mischling klein,NA,NA,NA,K,2014,m,rot
+133871,21-30,w,11,115,Labrador Retriever,NA,Cocker Spaniel,NA,I,2014,m,weiss/braun
+133901,41-50,w,2,21,Zwergspitz,NA,NA,NA,K,2014,w,beige
+134138,21-30,m,4,44,Chihuahua,NA,NA,NA,K,2014,m,schwarz/weiss
+134306,31-40,w,7,74,Pudel,NA,NA,NA,K,2014,w,apricot
+134311,21-30,w,10,101,Französische Bulldogge,NA,NA,NA,K,2014,w,weiss
+134312,21-30,w,4,42,Französische Bulldogge,NA,NA,NA,K,2014,m,braun
+134331,21-30,w,6,61,Pekingese,NA,Terrier,NA,K,2014,m,schwarz
+134563,31-40,w,12,123,Dobermann,NA,NA,NA,I,2014,w,schwarz/braun
+134620,51-60,w,12,122,Australian Cattle Dog,NA,NA,NA,I,2014,w,rot
+134805,21-30,m,2,21,Mischling gross,NA,NA,NA,I,2014,m,braun/weiss
+134964,31-40,w,11,119,Mischling gross,NA,NA,NA,I,2014,w,hellbraun
+135095,41-50,w,11,115,Labrador Retriever,NA,NA,NA,I,2014,m,schwarz
+135282,41-50,m,7,72,Pointer,NA,NA,NA,I,2014,m,weiss/braun
+135326,41-50,m,1,11,Englische Bulldogge,NA,NA,NA,I,2014,w,braun
+135385,21-30,m,11,119,Französische Bulldogge,NA,NA,NA,K,2014,w,weiss/schwarz
+135640,31-40,w,2,24,Biewer Yorkshire Terrier,NA,Yorkshire Terrier,NA,K,2014,w,schwarz/weiss
+135694,21-30,m,10,102,Spitz,Mischling,NA,NA,K,2014,w,braun
