@@ -1,0 +1,52 @@
+---
+title: "Arena SQL Answers"
+format:
+  html:
+    theme: zephyr
+    toc: true
+    toc-depth: 3
+    code-copy: true
+editor: visual
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r include=FALSE, eval =TRUE}
+knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE, message= FALSE)
+```
+
+
+
+## Introduction
+
+This is a document holding the answers from the [live stream](https://www.youtube.com/watch?v=uRWunH_LOLY) held on April 23. During the stream we answered Ram Kedem's SQL [series of questions he published online](https://docs.google.com/document/d/1H4Jo215InMGDVxU7Zuk31cJeh8vy_knF1xJ-jtzXST0/edit?fbclid=IwAR1lmuH5GM3yqOpbXnavnBe_v26tD_ZG3cjqtqWeImwfXeBRR2vOI3LcEWA). 
+
+The document was created at the end of the session in order to show how we can create shareable-ready SQL code.
+
+```{r}
+#| code-fold: true
+#| code-summary: "Show code for local connection to SSMS from R"
+
+library(odbc)
+library(DBI)
+
+sqlconn <- dbConnect(odbc(),
+                      Driver = "SQL Server",
+                      Server = "localhost\\SQLEXPRESS",
+                      Database = "arena")
+```
+
+## Questions
+
+### 1. 
+
+
+```{sql connection='sqlconn'}
+SELECT TOP 10 * 
+FROM dbo.players
+```
+
+```{r echo=FALSE}
+dbDisconnect(sqlconn)
+```
+ 
