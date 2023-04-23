@@ -82,7 +82,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a>
   <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">1.</a></li>
+  <li><a href="#get-users-payment-method-according-to-the-following-hierarchy-american-express-mastercard-visa" id="toc-get-users-payment-method-according-to-the-following-hierarchy-american-express-mastercard-visa" class="nav-link" data-scroll-target="#get-users-payment-method-according-to-the-following-hierarchy-american-express-mastercard-visa">1. Get user’s payment method according to the following hierarchy: American express, mastercard, visa</a></li>
+  <li><a href="#count-of-players-by-age-group-and-gender" id="toc-count-of-players-by-age-group-and-gender" class="nav-link" data-scroll-target="#count-of-players-by-age-group-and-gender">2. Count of players by age group and gender</a></li>
+  <li><a href="#display-the-number-of-sessions-for-each-game-rank-it-at-the-end" id="toc-display-the-number-of-sessions-for-each-game-rank-it-at-the-end" class="nav-link" data-scroll-target="#display-the-number-of-sessions-for-each-game-rank-it-at-the-end">3. Display the number of sessions for each game, rank it at the end</a></li>
+  <li><a href="#return-the-games-according-to-total-minutes-played" id="toc-return-the-games-according-to-total-minutes-played" class="nav-link" data-scroll-target="#return-the-games-according-to-total-minutes-played">4. Return the games according to total minutes played</a></li>
+  <li><a href="#show-for-each-age_group-the-game-in-which-most-minutes-were-played" id="toc-show-for-each-age_group-the-game-in-which-most-minutes-were-played" class="nav-link" data-scroll-target="#show-for-each-age_group-the-game-in-which-most-minutes-were-played">5. show for each age_group the game in which most minutes were played</a></li>
+  <li><a href="#display-the-balance-throughout-each-game-session" id="toc-display-the-balance-throughout-each-game-session" class="nav-link" data-scroll-target="#display-the-balance-throughout-each-game-session">6. DISPLAY THE BALANCE THROUGHOUT EACH GAME SESSION</a></li>
+  <li><a href="#companys-profitloss" id="toc-companys-profitloss" class="nav-link" data-scroll-target="#companys-profitloss">11. Company’s profit/loss</a></li>
+  <li><a href="#top-3-best-months-and-worst-months" id="toc-top-3-best-months-and-worst-months" class="nav-link" data-scroll-target="#top-3-best-months-and-worst-months">12. Top 3 best months and worst months</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -106,6 +113,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
+<style>
+ .cell span.kw {
+  color:red;
+}
+
+</style>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>This is a document holding the answers from the <a href="https://www.youtube.com/watch?v=uRWunH_LOLY">live stream</a> held on April 23. During the stream we answered Ram Kedem’s SQL <a href="https://docs.google.com/document/d/1H4Jo215InMGDVxU7Zuk31cJeh8vy_knF1xJ-jtzXST0/edit?fbclid=IwAR1lmuH5GM3yqOpbXnavnBe_v26tD_ZG3cjqtqWeImwfXeBRR2vOI3LcEWA">series of questions he published online</a>.</p>
@@ -125,152 +138,191 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="questions" class="level2">
 <h2 class="anchored" data-anchor-id="questions">Questions</h2>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section">1.</h3>
+<section id="get-users-payment-method-according-to-the-following-hierarchy-american-express-mastercard-visa" class="level3">
+<h3 class="anchored" data-anchor-id="get-users-payment-method-according-to-the-following-hierarchy-american-express-mastercard-visa">1. Get user’s payment method according to the following hierarchy: American express, mastercard, visa</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> TOP <span class="dv">10</span> <span class="op">*</span> </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> dbo.players</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="knitsql-table">
-<table class="table table-sm table-striped small">
-<caption>Displaying records 1 - 10</caption>
-<colgroup>
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 22%">
-<col style="width: 5%">
-<col style="width: 7%">
-<col style="width: 13%">
-<col style="width: 12%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">player_id</th>
-<th style="text-align: left;">first_name</th>
-<th style="text-align: left;">last_name</th>
-<th style="text-align: left;">email_address</th>
-<th style="text-align: left;">gender</th>
-<th style="text-align: left;">age_group</th>
-<th style="text-align: left;">country</th>
-<th style="text-align: left;">city</th>
-<th style="text-align: left;">street_address</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">Eddie</td>
-<td style="text-align: left;">Shakshaft</td>
-<td style="text-align: left;">eshakshaft0@gnu.org</td>
-<td style="text-align: left;">Male</td>
-<td style="text-align: left;">51-60</td>
-<td style="text-align: left;">China</td>
-<td style="text-align: left;">Zhanghekou</td>
-<td style="text-align: left;">13 Transport Street</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2</td>
-<td style="text-align: left;">Doralia</td>
-<td style="text-align: left;">Thirlwell</td>
-<td style="text-align: left;">dthirlwell1@chicagotribune.com</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: left;">21-30</td>
-<td style="text-align: left;">Russia</td>
-<td style="text-align: left;">Lesnoy</td>
-<td style="text-align: left;">5211 Maryland Junction</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">3</td>
-<td style="text-align: left;">Patrizius</td>
-<td style="text-align: left;">Castelin</td>
-<td style="text-align: left;">pcastelin2@hugedomains.com</td>
-<td style="text-align: left;">Male</td>
-<td style="text-align: left;">31-40</td>
-<td style="text-align: left;">France</td>
-<td style="text-align: left;">Sophia Antipolis</td>
-<td style="text-align: left;">763 Welch Center</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">4</td>
-<td style="text-align: left;">Anselma</td>
-<td style="text-align: left;">Vernalls</td>
-<td style="text-align: left;">avernalls3@over-blog.com</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: left;">31-40</td>
-<td style="text-align: left;">China</td>
-<td style="text-align: left;">Jingyu</td>
-<td style="text-align: left;">3886 Monica Center</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">5</td>
-<td style="text-align: left;">Arabelle</td>
-<td style="text-align: left;">Starie</td>
-<td style="text-align: left;">astarie4@unicef.org</td>
-<td style="text-align: left;">Male</td>
-<td style="text-align: left;">10-21</td>
-<td style="text-align: left;">Indonesia</td>
-<td style="text-align: left;">Sibreh</td>
-<td style="text-align: left;">1398 Anthes Place</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">6</td>
-<td style="text-align: left;">Abbie</td>
-<td style="text-align: left;">Strathdee</td>
-<td style="text-align: left;">astrathdee5@unicef.org</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: left;">41-50</td>
-<td style="text-align: left;">Dominican Republic</td>
-<td style="text-align: left;">Villa Francisca</td>
-<td style="text-align: left;">114 Sachs Point</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">7</td>
-<td style="text-align: left;">Jayme</td>
-<td style="text-align: left;">Kapelhoff</td>
-<td style="text-align: left;">jkapelhoff6@state.tx.us</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: left;">21-30</td>
-<td style="text-align: left;">Philippines</td>
-<td style="text-align: left;">Carmen</td>
-<td style="text-align: left;">32469 David Way</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">8</td>
-<td style="text-align: left;">Joachim</td>
-<td style="text-align: left;">Froome</td>
-<td style="text-align: left;">jfroome7@bbb.org</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: left;">10-21</td>
-<td style="text-align: left;">Indonesia</td>
-<td style="text-align: left;">Nginokrajan</td>
-<td style="text-align: left;">5 Gulseth Place</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">9</td>
-<td style="text-align: left;">Robinia</td>
-<td style="text-align: left;">Helleckas</td>
-<td style="text-align: left;">rhelleckas8@odnoklassniki.ru</td>
-<td style="text-align: left;">Female</td>
-<td style="text-align: left;">21-30</td>
-<td style="text-align: left;">Indonesia</td>
-<td style="text-align: left;">Teluksantong</td>
-<td style="text-align: left;">10371 Sauthoff Street</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">10</td>
-<td style="text-align: left;">Efren</td>
-<td style="text-align: left;">Heasley</td>
-<td style="text-align: left;">eheasley9@prnewswire.com</td>
-<td style="text-align: left;">Male</td>
-<td style="text-align: left;">51-60</td>
-<td style="text-align: left;">Mauritius</td>
-<td style="text-align: left;">Goodlands</td>
-<td style="text-align: left;">45 Delladonna Plaza</td>
-</tr>
-</tbody>
-</table>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> PLAYER_ID,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    email_address,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    credit_card_type,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    credit_card_number</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> (</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> P.PLAYER_ID,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    email_address,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    credit_card_type,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    credit_card_number,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    payment_method_rank <span class="op">=</span> <span class="fu">ROW_number</span> () <span class="kw">OVER</span> (<span class="kw">PARTITION</span> <span class="kw">BY</span> P.PLAYER_ID <span class="kw">ORDER</span> <span class="kw">BY</span> <span class="cf">CASE</span> CREDIT_CARD_TYPE</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>                                                            <span class="cf">when</span> <span class="st">'AMERICANEXPRESS'</span> <span class="cf">THEN</span> <span class="dv">1</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>                                                            <span class="cf">when</span> <span class="st">'MASTERCARD'</span> <span class="cf">THEN</span> <span class="dv">2</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>                                                            <span class="cf">when</span> <span class="st">'VISA'</span> <span class="cf">THEN</span> <span class="dv">3</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>                                                            <span class="cf">ELSE</span> <span class="kw">NULL</span> </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>                                                        <span class="cf">END</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> [dbo].[players] p</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[paying_method] PMETHOD <span class="kw">on</span> p.player_id <span class="op">=</span> pmethod.player_id </span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    ) <span class="kw">AS</span> RANKED_PAYMENTS</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> payment_method_rank <span class="op">=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="count-of-players-by-age-group-and-gender" class="level3">
+<h3 class="anchored" data-anchor-id="count-of-players-by-age-group-and-gender">2. Count of players by age group and gender</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="op">*</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> (</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> p.player_id,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        gender,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        age_group,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        credit_card_type    </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> [dbo].[players] p</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[paying_method] PMETHOD <span class="kw">on</span> p.player_id <span class="op">=</span> pmethod.player_id </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    ) <span class="kw">AS</span> PVT</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    PIVOT (</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        <span class="fu">COUNT</span>(PLAYER_ID)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">FOR</span> CREDIT_CARD_TYPE <span class="kw">IN</span> (AMERICANEXPRESS, MASTERCARD, VISA)</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    ) <span class="kw">AS</span> PVTTABLE</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="kw">order</span> <span class="kw">by</span> gender, age_group</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="display-the-number-of-sessions-for-each-game-rank-it-at-the-end" class="level3">
+<h3 class="anchored" data-anchor-id="display-the-number-of-sessions-for-each-game-rank-it-at-the-end">3. Display the number of sessions for each game, rank it at the end</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="op">*</span>,</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ROW_NUMBER</span>() <span class="kw">OVER</span> (<span class="kw">ORDER</span> <span class="kw">BY</span> TOTAL_SESSIONS <span class="kw">DESC</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> (</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> TOP <span class="dv">100</span> game_name,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="fu">count</span>(session_id) <span class="kw">AS</span> TOTAL_SESSIONS</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> [dbo].[games] games</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[game_sessions] gamesession <span class="kw">on</span> games.<span class="kw">id</span> <span class="op">=</span> gamesession.game_id</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">group</span> <span class="kw">by</span> game_name</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>) <span class="kw">AS</span> AGGREGATE_GAMES</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="return-the-games-according-to-total-minutes-played" class="level3">
+<h3 class="anchored" data-anchor-id="return-the-games-according-to-total-minutes-played">4. Return the games according to total minutes played</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">WITH</span> TOTAL_MINUTES_GAMES <span class="kw">AS</span> (</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> TOP <span class="dv">100</span> GAME_NAME,</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="fu">SUM</span>(DATEDIFF(<span class="kw">MINUTE</span>, SESSION_BEGIN_DATE, SESSION_END_DATE)) <span class="kw">AS</span> TOTAL_MINUTES</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> [dbo].[games] games</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[game_sessions] gamesession <span class="kw">on</span> games.<span class="kw">id</span> <span class="op">=</span> gamesession.game_id</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">group</span> <span class="kw">by</span> game_name</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="op">*</span>,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ROW_NUMBER</span> () <span class="kw">OVER</span>(<span class="kw">ORDER</span> <span class="kw">BY</span> TOTAL_MINUTES <span class="kw">DESC</span>) <span class="kw">AS</span> GAME_RANK</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> TOTAL_MINUTES_GAMES</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="show-for-each-age_group-the-game-in-which-most-minutes-were-played" class="level3">
+<h3 class="anchored" data-anchor-id="show-for-each-age_group-the-game-in-which-most-minutes-were-played">5. show for each age_group the game in which most minutes were played</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="kw">DISTINCT</span> age_group,</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    CROSS_TABLE.<span class="op">*</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> [dbo].[players] playersOuter</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="kw">CROSS</span> APPLY (</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> TOP <span class="dv">1</span> </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>        GAME_NAME,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>        <span class="fu">SUM</span>(DATEDIFF(<span class="kw">MINUTE</span>, SESSION_BEGIN_DATE, SESSION_END_DATE)) <span class="kw">AS</span> TOTAL_MINUTES</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    [dbo].[players] players</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">join</span> [dbo].[game_sessions] gsession <span class="kw">on</span> gsession.player_id <span class="op">=</span> players.player_id</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[games] games <span class="kw">ON</span> gsession.game_id <span class="op">=</span> GAMES.<span class="kw">ID</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">WHERE</span> PLAYERS.AGE_GROUP <span class="op">=</span> playersOuter.AGE_GROUP</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">GROUP</span> <span class="kw">BY</span> AGE_GROUP, GAME_NAME</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">ORDER</span> <span class="kw">BY</span> TOTAL_MINUTES <span class="kw">DESC</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>    ) <span class="kw">AS</span> CROSS_TABLE</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="display-the-balance-throughout-each-game-session" class="level3">
+<h3 class="anchored" data-anchor-id="display-the-balance-throughout-each-game-session">6. DISPLAY THE BALANCE THROUGHOUT EACH GAME SESSION</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> TOP <span class="dv">100</span> <span class="op">*</span>,</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">SUM</span>(IIF(ACTION_TYPE <span class="op">=</span> <span class="st">'LOSS'</span>, AMOUNT <span class="op">*</span> <span class="op">-</span><span class="dv">1</span>, AMOUNT)) <span class="kw">OVER</span>(<span class="kw">PARTITION</span> <span class="kw">BY</span> SDETAILS.SESSION_ID <span class="kw">ORDER</span> <span class="kw">BY</span> ACTION_ID) <span class="kw">AS</span> BALANCE</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> [dbo].[game_sessions] GSESSIONS</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[session_details] SDETAILS <span class="kw">ON</span> GSESSIONS.session_id <span class="op">=</span> SDETAILS.session_id</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="companys-profitloss" class="level3">
+<h3 class="anchored" data-anchor-id="companys-profitloss">11. Company’s profit/loss</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">WITH</span> session_balance <span class="kw">as</span> (</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> <span class="dt">YEAR</span>(SESSION_BEGIN_DATE) <span class="kw">AS</span> SessionYear,</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>        DATEPART(quarter, session_begin_date) <span class="kw">as</span> SessionQuarter,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>        GSESSIONS.session_id,</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        total_balance <span class="op">=</span> <span class="fu">SUM</span>(IIF(ACTION_TYPE <span class="op">=</span> <span class="st">'LOSS'</span>, AMOUNT <span class="op">*</span> <span class="op">-</span><span class="dv">1</span>, AMOUNT))</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> [dbo].[game_sessions] GSESSIONS</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[session_details] SDETAILS <span class="kw">ON</span> GSESSIONS.session_id <span class="op">=</span> SDETAILS.session_id</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">YEAR</span>(SESSION_BEGIN_DATE),</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        DATEPART(quarter, session_begin_date),</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>        GSESSIONS.session_id</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> SessionYear,</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    SessionQuarter,</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">SUM</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> total_balance <span class="op">&lt;</span> <span class="dv">0</span> <span class="cf">then</span> total_balance <span class="op">*</span> <span class="op">-</span><span class="dv">1</span> <span class="cf">END</span>) <span class="kw">as</span> house_gains,</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">SUM</span>(<span class="cf">CASE</span> <span class="cf">WHEN</span> total_balance <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">then</span> total_balance <span class="op">*</span> <span class="op">-</span><span class="dv">1</span> <span class="cf">END</span>) <span class="kw">as</span> house_losses,</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">SUM</span>(total_balance) <span class="op">*</span> <span class="op">-</span><span class="dv">1</span> <span class="kw">as</span> overall_gain_loss</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="kw">from</span> session_balance</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="kw">group</span> <span class="kw">by</span> SessionYear,</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>    SessionQuarter</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="kw">order</span> <span class="kw">by</span> SessionYear,</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>    SessionQuarter</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="top-3-best-months-and-worst-months" class="level3">
+<h3 class="anchored" data-anchor-id="top-3-best-months-and-worst-months">12. Top 3 best months and worst months</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">with</span> session_balance <span class="kw">as</span> (</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> <span class="dt">YEAR</span>(SESSION_BEGIN_DATE) <span class="kw">AS</span> SessionYear,</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>        DATEPART(<span class="dt">month</span>, session_begin_date) <span class="kw">as</span> SessionQuarter,</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>        GSESSIONS.session_id,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>        total_balance <span class="op">=</span> <span class="fu">SUM</span>(IIF(ACTION_TYPE <span class="op">=</span> <span class="st">'LOSS'</span>, AMOUNT <span class="op">*</span> <span class="op">-</span><span class="dv">1</span>, AMOUNT))</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> [dbo].[game_sessions] GSESSIONS</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">LEFT</span> <span class="kw">JOIN</span> [dbo].[session_details] SDETAILS <span class="kw">ON</span> GSESSIONS.session_id <span class="op">=</span> SDETAILS.session_id</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">GROUP</span> <span class="kw">BY</span> <span class="dt">YEAR</span>(SESSION_BEGIN_DATE),</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>        DATEPART(<span class="dt">month</span>, session_begin_date),</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        GSESSIONS.session_id</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>        ),</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>aggregate_year_month <span class="kw">as</span> (</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> SessionYear,</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>        SessionQuarter,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>        <span class="fu">SUM</span>(<span class="cf">case</span> <span class="cf">when</span> total_balance <span class="op">&lt;</span> <span class="dv">0</span> <span class="cf">then</span> total_balance <span class="op">*</span> <span class="op">-</span><span class="dv">1</span> <span class="cf">END</span>) <span class="kw">as</span> house_gains,</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>        <span class="fu">SUM</span>(<span class="cf">case</span> <span class="cf">when</span> total_balance <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">then</span> total_balance <span class="op">*</span> <span class="op">-</span><span class="dv">1</span> <span class="cf">END</span>) <span class="kw">as</span> house_losses,</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>        <span class="fu">SUM</span>(total_balance) <span class="op">*</span> <span class="op">-</span><span class="dv">1</span> <span class="kw">as</span> overall_gain_loss</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    <span class="kw">from</span> session_balance</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    <span class="kw">group</span> <span class="kw">by</span> SessionYear,</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>        SessionQuarter</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>),</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>ranked_months <span class="kw">as</span> (</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> <span class="op">*</span>,</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>        <span class="st">'Gain Top-'</span> <span class="op">+</span> <span class="fu">cast</span>(<span class="fu">row_number</span> () <span class="kw">over</span>(<span class="kw">order</span> <span class="kw">by</span> overall_gain_loss <span class="kw">desc</span>) <span class="kw">as</span> <span class="dt">nvarchar</span>(<span class="fu">max</span>)) overall_rank_top,</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>        <span class="fu">row_number</span> () <span class="kw">over</span>(<span class="kw">order</span> <span class="kw">by</span> overall_gain_loss <span class="kw">desc</span>) <span class="kw">as</span> rank_top,</span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>        <span class="st">'Loss Top-'</span> <span class="op">+</span> <span class="fu">cast</span>(<span class="fu">row_number</span> () <span class="kw">over</span>(<span class="kw">order</span> <span class="kw">by</span> overall_gain_loss <span class="kw">asc</span>) <span class="kw">as</span> <span class="dt">nvarchar</span>(<span class="fu">max</span>)) <span class="kw">as</span> overall_rank_bottom,</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>        <span class="fu">row_number</span> () <span class="kw">over</span>(<span class="kw">order</span> <span class="kw">by</span> overall_gain_loss <span class="kw">asc</span>) <span class="kw">as</span> rank_bottom</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a>    <span class="kw">FROM</span> aggregate_year_month</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="op">*</span> </span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> (</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> sessionYear,</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>        SessionQuarter,</span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>        house_gains,</span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>        house_losses,</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>        overall_gain_loss,</span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>        overall_rank_top</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">from</span> ranked_months</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>    <span class="kw">where</span> rank_top <span class="op">&lt;=</span> <span class="dv">3</span></span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a>    <span class="kw">union</span> </span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>    <span class="kw">SELECT</span> sessionYear,</span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a>        SessionQuarter,</span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>        house_gains,</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>        house_losses,</span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a>        overall_gain_loss,</span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>        overall_rank_bottom</span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>    <span class="kw">from</span> ranked_months</span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>    <span class="kw">where</span> rank_bottom <span class="op">&lt;=</span> <span class="dv">3</span></span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>) <span class="kw">as</span> t</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a><span class="kw">order</span> <span class="kw">by</span> <span class="dv">6</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 </section>

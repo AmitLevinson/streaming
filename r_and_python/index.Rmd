@@ -1,6 +1,5 @@
 ---
 title: "R & Python Analysis"
-author: "Amit Levinson"
 description: "This is a description"
 date: "3/16/2022"
 output:
@@ -68,6 +67,9 @@ library(tidytext)
 library(reticulate)
 ```
 
+### Questions {.tabset}
+
+
 
 #### 1. Load the files into memory and combine them into a single Dataframe {.tabset}
 
@@ -97,7 +99,11 @@ dogs <- map_dfr(files, read_csv, col_types = cols())
 dogs
 ```
 
+
+
 </details>
+
+#### 
 
 #### 2. Describe the data using a summary function of sort {.tabset}
 
@@ -148,14 +154,14 @@ dogs %>%
 
 </details>
 
-<br>
+####
 
-#### 4. What are the top 10 most common primary breeds by dog gender? Visualize it using a corresponding bar plot {.tabset}
+##### 4. What are the top 10 most common primary breeds by dog gender? Visualize it using a corresponding bar plot {.tabset}
 
 <details>
   <summary> Solution </summary>
 
-##### Python
+###### Python
 
 ```{python}
 main_table = df[['dog_gender','primary_breed']].pivot_table(index='primary_breed', columns='dog_gender', aggfunc=len).copy()
@@ -174,7 +180,7 @@ sorted_by_m.plot(kind='bar', rot=40, color=["pink", "teal"], ax=axes[1], figsize
 ```
 
 
-##### R
+###### R
 
 ```{r}
 dogs %>% 
@@ -190,6 +196,8 @@ dogs %>%
 ```
 
 </details>
+
+##### 
 
 #### 5. Who (owner) has dogs with the largest age gap between them? What’s the gap value? {.tabset}
 
@@ -228,7 +236,8 @@ dogs %>%
 ```
 
 **Another solution suggested by [Adi Sarid](https://adisarid.github.io/)**
-```{r}
+
+```{r eval = FALSE}
 dogs %>% 
   group_by(owner_id) %>% 
   summarise(age_gap = max(dog_dob) - min(dog_dob)) %>% 
@@ -246,9 +255,7 @@ dogs %>%
 ##### Python
 
 ```{python eval = FALSE}
-
 writer = pd.ExcelWriter("dogs_by_owner_age_python.xlsx")
-
 
 for age in df['age'].fillna("None").unique():
     temp_df = df[df['age']==age].copy()
@@ -267,7 +274,7 @@ dogs %>%
 
 ##### Output
 
-![](xlsx_output.png){width=50%}
+![](xlsx_output.png){width=80%}
 
 
 </details>
